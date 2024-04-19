@@ -1,0 +1,117 @@
+:: StoryTitle
+Island
+
+
+:: StoryData
+{
+  "ifid": "E68185A7-A5FC-4F8A-8E42-FB96B3D234EB",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "start",
+  "zoom": 0.6
+}
+
+
+:: debris {"position":"563,331.5","size":"100,100"}
+The debris doesn't get you out of the water, but it floats well enough that you drift away from the wreckage, and you drift aimlessly.
+After what seems like hours, you feel sand beneath your feet. 
+You found an island!
+What should you do first?
+[[look for other wreckage or survivers->search]]
+[[explore your new surroundings->explore]]
+
+
+:: explore {"position":"806,318.5","size":"100,100"}
+In your exhausted state, you begin to look around the island.
+But you don't notice that there is a deep cliff in front of you, and you step off of it.
+At least you didn't die at sea.
+[[start over?->start]]
+
+
+:: fire {"position":"332,790.5","size":"100,100"}
+You try to build a fire, but it's very difficult without matches.
+Do you 
+[[give up->food]]
+[[keep trying ->fire]]
+
+
+:: fire2 {"position":"411,936.5","size":"100,100"}
+You go back to the fire and this time you can get it lit.
+You now have fire, and the smoke rises up to the sky.
+As you look out over the water, you can see a ship way out in the distance. You might live after all!
+[[swim to the boat->swim2]]
+[[make the fire larger->signal]]
+
+
+:: food {"position":"482,790.5","size":"100,100"}
+You decide to go look for food.  You see some berries you can eat. It's not much, but it's something.  On the way back to your campsite, you see another box that washed ashore.  It contains some matches!
+[[keep looking for food->food2]]
+[[try again with your fire->fire2]]
+
+
+:: food2 {"position":"667,789.5","size":"100,100"}
+You keep on looking for food, but you don't find any.  In fact, you can't find anything.  The island was bigger than you thought.  You never get off of the island.
+[[start over->start]]
+
+
+:: lifeboat {"position":"881,134.5","size":"100,100"}
+The lifeboat was a good choice.  
+It will get you out of the water.  
+As you crawl into the boat, you realize that everybody else on the sinking ship thought the same thing you did.
+
+As more and more people pile onto the lifeboat, it gets deeper in the water, until it slowly submerges.
+
+You lose.
+[[start over?->start]]
+
+
+:: rest {"position":"407,640.5","size":"100,100"}
+You feel surprisingly well-rested after a night in your shelter. 
+Do you 
+[[build a fire->fire]]
+or
+[[look for food->food]]
+
+
+:: search {"position":"562,451.5","size":"100,100"}
+You see some wreckage from the shipwreck, but sadly, no other survivors.
+You can find enough scraps of wood to put together a primitive shelter.
+Do you:
+[[get some rest->rest]]
+[[explore the island to look for food->explore]]
+
+
+:: signal {"position":"3,870.5","size":"100,100"}
+You build up the fire much higher, sending a black plume of smoke into the sky.  
+Eventually, you see the boat seeming to turn towards you.  
+Sure enough, it comes to the island, and you are saved.
+You win!
+[[try again?->start]]
+
+
+:: start {"position":"478,25.5","size":"100,100"}
+You are on a boat. It is on fire.
+[[stay on the boat->stay]]
+[[jump into the water->water]]
+
+
+:: stay {"position":"443,322.5","size":"100,100"}
+Did I mention the boat was ''ON FIRE?''
+
+This was a short adventure for you.
+[[start over->start]]
+
+
+:: swim2 {"position":"110,783.5","size":"100,100"}
+You try to swim out to the boat, but it is farther than you thought.
+...and swimming is hard when you've barely eaten.
+You slowly sink below the waves.
+[[start over->start]] 
+
+
+
+:: water {"position":"529,195.5","size":"100,100"}
+You are in the water.  As you swim around, you notice a lifeboat bobbing nearby, and some debris floating around.
+Do you:
+[[swim to the lifeboat->lifeboat]]
+[[swim to the debris->debris]]
